@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cover-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1, p {
+    color: white;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+/* Style for the Profile Image */
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 0px solid white;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    margin-top: 20px;
+}
